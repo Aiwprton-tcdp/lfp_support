@@ -1,0 +1,49 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@inertiajs/inertia": "^0.10.0",
+        "@inertiajs/inertia-vue3": "^0.5.1",
+        "@inertiajs/progress": "^0.2.6",
+        "@tailwindcss/forms": "^0.2.1",
+        "@vue/compiler-sfc": "^3.0.5",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.2.4",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.2.13",
+        "postcss-import": "^14.0.1",
+        "tailwindcss": "^2.1.2",
+        "vue": "^3.0.5",
+        "vue-loader": "^16.1.2"
+    },
+    "dependencies": {
+        "@heroicons/vue": "^1.0.5",
+        "bitrix24-vue": "^0.1.38",
+        "bx24": "^0.1.3",
+        "bx24-api": "^1.4.1",
+        "centrifuge": "^2.8.4",
+        "datatables.net-bs4": "^1.11.3",
+        "datatables.net-buttons-bs4": "^2.0.1",
+        "datatables.net-dt": "^1.11.3",
+        "gitart-vue-dialog": "^1.1.0",
+        "inputmask": "^5.0.6",
+        "jquery": "^3.6.0",
+        "v-select2-multiple-component": "^0.1.1",
+        "vue-datatables-net": "^1.5.4",
+        "vue-plugin-load-script": "^2.1.1",
+        "vue-router": "^4.0.14",
+        "vue-select2": "^0.2.6",
+        "vue-toggle-component": "^1.0.16",
+        "vue3-side-panel": "^1.0.1"
+    }
+}
